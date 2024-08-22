@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Heading from './Components/Heading'
+import Header from './Components/Navbar'
+import Herosection from './Components/Hero_section'
 
-function App() {
+// react components always start with capital letter remember this next timecd
+const App=() => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Heading/>
+     <Header/>
+     <Herosection/>
+    </>
   );
 }
 
