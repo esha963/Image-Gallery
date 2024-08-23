@@ -58,7 +58,7 @@
     text-align: center;
 }
 .gallery .controls .buttons.active{
-    background-color: coral;
+    background-color: #F05A7E;
     color: #fff;
 }
 .image-container{
@@ -84,3 +84,8 @@
 .image-container .image:hover img{
     transform: scale(1.4);
 }
+@media (max-width: 768px) {
+    .logo {
+      display: none;
+    }
+  }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Navbar = () => {
-  
+
   return (
     <div className='gallery'>
       <ul className='controls'>
